@@ -1,0 +1,24 @@
+.block-imgs-btn{
+	width: 50%;
+	height: 75%;
+	align-content: center;
+	margin: auto;
+
+}
+
+.img-btn{
+	display: inline;
+	margin-left: 15%;
+
+}
+img{
+	box-shadow: 6px 6px 8px #aaa;
+	width: 20%;
+	margin-top: 10%;
+}
+img:hover{
+	box-shadow: 3px 3px 4px #aaa;
+}
+label{
+	margin-left: 10%;
+}
