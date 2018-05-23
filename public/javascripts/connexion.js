@@ -1,29 +1,21 @@
-/*(function(){
-	angular.module("store",[]);
-})();
 
-function {
+function validate (form){
+    console.log('GOOD JOB');
+var identifiant = document.getElementById("username").value;
+	//var identifiant = form.username.value;
+	console.log(identifiant);
 
-	var identifiant = document.getElementyId("identifiant").value; 
-	var mdp = document.getElementyId("mdp").value;
+var mdp = document.getElementById("password");
 
-if ( identifiant == "Camille" && mdp == "123"){
+if ( identifiant == null && mdp == null){
 alert ("Login successfully");
-window.location = "/accueil.ejs"; // Redirecting to other page.
-return false;
+
+
 }
 else{
-attempt --;// Decrementing by one.
-alert("You have left "+attempt+" attempt;");
-// Disabling fields after 3 attempts.
-if( attempt == 0){
-document.getElementById("username").disabled = true;
-document.getElementById("password").disabled = true;
-document.getElementById("submit").disabled = true;
-return false;
-}
+	console.log("mieux");
 }
 };
 
 
-*/
+//validate();
